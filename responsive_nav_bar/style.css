@@ -1,0 +1,40 @@
+nav{
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    /* background-color: rebeccapurple; */
+    width: 20%;
+    height: 20%;
+}
+.logo img{
+    width: 70%;
+    height:100px;
+    border-radius: 30%;
+    object-fit: cover;
+}
+.bars button{
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    transition: ease-in-out 1s;
+    /* outline: none; */
+}
+.bars button i:hover{
+    color: rgb(23, 174, 174);
+  
+    /* animation: rotate; */
+}
+.bars button:hover{
+    /* font-size: 50px; */
+    transform: rotate(90deg);
+}
+
+.lists{
+    display: none;
+}

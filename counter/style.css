@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    margin-top: calc(50% - 40%);
+    background-color: azure;
+}
+h1{
+    font-size: 55px;
+}
+p{
+    font-size:55px;
+}
+.buttons{
+    width:50%;
+    margin-left: 25%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* padding-left: 30%; */
+    /* justify-content: space-around; */
+}
+
+.buttons div button{
+    font-size: 30px;
+    background-color: transparent;
+}
+.buttons div button:hover{
+    background-color: black;
+    color: white;
+}
+.inc{
+    color: green;
+    background-color: greenyellow;
+}
+.reset{
+    color: black;
+    background-color: blue;
+}
+.dec{
+    color: red;
+    background-color: brown;
+}
